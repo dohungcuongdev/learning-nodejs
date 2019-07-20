@@ -2,6 +2,7 @@ var http = require('http'); // Node.js has a built-in module called HTTP, which 
 var dt = require('./myfirstmodule'); // You can create your own modules, and easily include them in your applications.
 var Person = require('./person');
 var FileSystem = require('./file-system-module');
+var eventsModule = require('./events-module');
 
  // In the JavaScript, a function can be treated like a class. The following example exposes a function which can be used like a class.
 var docuong = new Person('Do', 'Cuong');
@@ -41,3 +42,4 @@ const handleFile = {
 }
 
 console.log("Server is running on http://localhost:8080");
+eventsModule.testMyEvents(); // call function in module
