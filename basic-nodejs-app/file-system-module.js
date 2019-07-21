@@ -68,4 +68,25 @@ module.exports = function () {
         })
     }
 
+    // read an folder and return all the files in this folder
+    this.readDirectory = function (fileDir) {
+        return new Promise(function (resolve, reject) {
+            fs.readdir(fileDir, function (err, files) {
+                if (err) reject(err);
+                resolve(files);
+            });
+        }) 
+    }
+
+    // can only remove empty folder
+    this.removeDirectory = function (fileDir) {
+        return new Promise(function (resolve, reject) {
+            fs.rmdir(fileDir, function (err) {
+                if (err) reject(err);
+                resolve('Deleted');
+            });
+        }) 
+    }
 };
+
+// test this in server.js

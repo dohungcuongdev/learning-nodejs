@@ -22,5 +22,6 @@ module.exports = function (firstname, lastname) {
     this.setLastName = lastname => {
         this.lastname = lastname;
     }
-
 }
+
+// test this in server.js

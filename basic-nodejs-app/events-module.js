@@ -33,7 +33,44 @@ const testScreamEvent = () => {
     eventEmitter.emit('scream');
 }
 
-module.exports.testMyEvents = function () {
-    testEventFileOpened();
-    testScreamEvent();
-};
+const testSumEvent = () => {
+    eventEmitter.on('sum', (a, b) => {
+        console.log(a + b);
+    })
+
+    eventEmitter.emit('sum', 2, 3);
+}
+
+class MyEventEmitter extends events.EventEmitter {
+    constructor(name) {
+        super();
+        this._name = name
+    }
+
+    get name() {
+        return this._name;
+    }
+}
+
+function testMyEventEmitter() {
+    let myEventEmitterInstance1 = new MyEventEmitter('hello');
+    let myEventEmitterInstance2 = new MyEventEmitter('greeting');
+    myEventEmitterInstance1.on('printName', () => {
+        console.log('MyEventEmitter name is ' + myEventEmitterInstance1.name)
+    })
+    myEventEmitterInstance2.on('printName', () => {
+        console.log('MyEventEmitter name is ' + myEventEmitterInstance2.name)
+    })
+    // execute emit will do sequensely as synchonous
+    myEventEmitterInstance1.emit('printName');
+    myEventEmitterInstance2.emit('printName');
+}
+
+
+
+module.exports.testEventFileOpened = testEventFileOpened;
+module.exports.testScreamEvent = testScreamEvent;
+module.exports.testSumEvent = testSumEvent;
+module.exports.testMyEventEmitter = testMyEventEmitter;
+
+// test this in server.js

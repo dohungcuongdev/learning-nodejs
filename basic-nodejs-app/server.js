@@ -1,5 +1,7 @@
 var http = require('http'); // Node.js has a built-in module called HTTP, which allows Node.js to transfer data over the Hyper Text Transfer Protocol (HTTP).
 var dt = require('./myfirstmodule'); // You can create your own modules, and easily include them in your applications.
+var { sum, PI, printSomething } = require('./mysecondmodule');
+var mysecondmodule = require('./mysecondmodule');
 var Person = require('./person');
 var FileSystem = require('./file-system-module');
 var eventsModule = require('./events-module');
@@ -37,9 +39,25 @@ const handleFile = {
     console.log(res4);
     let res5 = await fileSystem.deleteFile(newfileName);
     console.log(res5);
+    let res6 = await fileSystem.readDirectory('abc');
+    console.log(res6);
+    console.log(await fileSystem.readFile('./abc/'+res6))
     return res3;
   }
 }
 
 console.log("Server is running on http://localhost:8080");
-eventsModule.testMyEvents(); // call function in module
+
+ // call function in module
+eventsModule.testEventFileOpened();
+eventsModule.testScreamEvent();
+eventsModule.testSumEvent();
+eventsModule.testMyEventEmitter();
+
+console.log(sum(1,2));
+console.log(PI);
+printSomething();
+
+console.log(mysecondmodule.sum(1,2));
+console.log(mysecondmodule.PI);
+mysecondmodule.printSomething();
