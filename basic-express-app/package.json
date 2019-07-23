@@ -1,0 +1,31 @@
+{
+  "name": "basic-nodejs-app-npm",
+  "version": "1.0.0",
+  "description": "simple nodejs  app with npm, upload file, send email, mongodo, api example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dohungcuongdev/learning-nodejs.git"
+  },
+  "keywords": [
+    "basic-nodejs"
+  ],
+  "author": "Cuong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dohungcuongdev/learning-nodejs/issues"
+  },
+  "homepage": "https://github.com/dohungcuongdev/learning-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "joi": "^14.3.1",
+    "mongodb": "^3.3.0-beta2",
+    "nodemailer": "^6.3.0"
+  }
+}

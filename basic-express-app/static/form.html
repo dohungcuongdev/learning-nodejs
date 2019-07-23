@@ -1,0 +1,79 @@
+<html>
+
+<body>
+    <h1>Form</h1>
+    <form action="/fullname" method="post">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Form POST JSON</h1>
+    <form action="/postJson" method="post" id="formPostJson">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h1>Validate Form</h1>
+    <form action="/validate" method="post" id="needValidate">
+        Email: <input type="text" name="email"><br>
+        Password: <input type="text" name="password"><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // submit formPostJson
+        $("#formPostJson").on('submit', function (e) {
+            e.preventDefault();
+            // send ajax
+            $.ajax({
+                url: 'postJson', // url where to submit the request
+                type: "POST", // type of action POST || GET
+                dataType: 'json', // data type
+                data: $("#formPostJson").serialize(), // post data || get data
+                success: function (response) {
+                    // you can see the response from the console
+                    // tab of the developer tools
+                    console.log(response);
+                    alert(response.fullname)
+
+                },
+                error: function (xhr, resp, text) {
+                    console.log(xhr, resp, text);
+                }
+            })
+        });
+    });
+
+    $(document).ready(function () {
+        // submit formPostJson
+        $("#needValidate").on('submit', function (e) {
+            e.preventDefault();
+            // send ajax
+            $.ajax({
+                url: 'validate', // url where to submit the request
+                type: "POST", // type of action POST || GET
+                dataType: 'json', // data type
+                data: $("#needValidate").serialize(), // post data || get data
+                success: function (response) {
+                    // you can see the response from the console
+                    // tab of the developer tools
+                    console.log(response);
+                    alert(response.result.email + '\n' + response.result.password);
+
+                },
+                error: function (xhr, resp, text) {
+                    console.log(xhr, resp, text);
+                }
+            })
+        });
+    });
+
+</script>
+
+</html>
