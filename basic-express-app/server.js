@@ -14,11 +14,24 @@ app.get("/", function (httpRequest, httpResponse, next) {
 var mw = require('./my-middleware.js');
 app.use(mw({ option1: '1', option2: '2' }));
 
-// http://localhost:8080/testmw
-app.get('/testmw', mw({ option1: '11', option2: '22' }));
+// http://localhost:8080/testmw - test middleware
+app.get('/testmw', mw({ option1: '11', option2: '22' })); // create middleware in another file
+
+app.use((req, res, next) => { // another middleware
+    req.mwData = {mes: 'I am middleware'}; // pass middleware to next executioner
+    console.log('any users request get processed by this middleware');
+    next();
+})
+
+app.use('/testmw', (req, res, next) => { // another middleware
+    req.testmwData = {mes: 'I am testmw middleware'}; // pass middleware to next executioner
+    console.log('only request /testmw get processed by this middleware');
+    next();
+})
 
 app.get('/testmw', (req, res) => {
-    res.send('testmw');
+    console.log('testmw route');
+    res.send(req.mwData.mes+' '+req.testmwData.mes); // print data from above middlewares
 })
 
 const path = require('path')
@@ -55,6 +68,7 @@ app.post('/fullname', (req, res) => {
     res.send('successfully posted data - fullname=' + (fname + lname))
 })
 
+// Form -  // http://localhost:8080/form
 // form post JSON
 app.use(bodyParser.json())
 app.post('/postJson', (req, res) => {
@@ -78,5 +92,27 @@ app.post('/validate', (req, res, next) => {
         }
     })
 })
+
+
+// ejs
+const VIEW_DIR = 'views';
+const VIEW_FILE_EXTENTION = 'ejs';
+const VIEW_RESOUCE_DIR = 'public';
+
+// view engine setup - ejs views
+app.set('views', path.join(__dirname, VIEW_DIR));
+app.set('view engine', VIEW_FILE_EXTENTION);
+
+// ejs public
+app.use(express.static(path.join(__dirname, VIEW_RESOUCE_DIR)));
+
+app.get('/my-ejs-view', (req, res) => { // http://localhost:8080/my-ejs-view
+  let random_boolean = Math.random() >= 0.5; // random display data
+  res.render('my-view', {title:'my-view', bodyData: random_boolean?'This is data rendered from server':'', footerData: 'Footer'});
+});
+
+// routes
+const myRoute = require('./routes/my-route');
+app.use('/routes', myRoute); // http://localhost:8080/routes/...
 
 app.listen(8080)

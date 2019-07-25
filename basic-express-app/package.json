@@ -22,6 +22,7 @@
   "homepage": "https://github.com/dohungcuongdev/learning-nodejs#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
     "express": "^4.17.1",
     "formidable": "^1.2.1",
     "joi": "^14.3.1",

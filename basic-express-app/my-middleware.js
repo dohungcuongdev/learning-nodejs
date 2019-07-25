@@ -4,6 +4,6 @@ module.exports = function (options) {
         console.log('hello form my-middleware');
         console.log('option1='+options.option1);
         console.log('option2='+options.option2);
-        next()
+        next();
     }
 }

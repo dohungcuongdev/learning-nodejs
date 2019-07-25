@@ -1,0 +1,9 @@
+<% include header.ejs %>
+<body>
+    <% if (bodyData !== '') { %>
+        <h1><%= bodyData %></h1>
+    <% } else { %>
+        <p>No Data From Server!</p>
+    <% } %>
+</body>
+<% include footer.ejs %>
