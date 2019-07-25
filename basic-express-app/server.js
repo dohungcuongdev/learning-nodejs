@@ -1,8 +1,24 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => { //http://localhost:8080/
-    res.send('index route')
+app.get("/", function (httpRequest, httpResponse, next) {
+    httpResponse.write("Hello");
+    next(); //remove this and see what happens 
+});
+
+app.get("/", function (httpRequest, httpResponse, next) {
+    httpResponse.write(" World !!!");
+    httpResponse.end();
+});
+
+var mw = require('./my-middleware.js');
+app.use(mw({ option1: '1', option2: '2' }));
+
+// http://localhost:8080/testmw
+app.get('/testmw', mw({ option1: '11', option2: '22' }));
+
+app.get('/testmw', (req, res) => {
+    res.send('testmw');
 })
 
 const path = require('path')
@@ -29,16 +45,17 @@ app.get('/api/user', (req, res) => { // http://localhost:8080/api/user?id=1&user
     res.send({ id, username })
 })
 
+const bodyParser = require('body-parser')
+app.use(bodyParser.urlencoded({ extended: false }))
+
 // post
 app.post('/fullname', (req, res) => {
-    const fname = req.body.fname;
-    const lname = req.body.lname;
+    const fname = req.body.firstname;
+    const lname = req.body.lastname;
     res.send('successfully posted data - fullname=' + (fname + lname))
 })
 
 // form post JSON
-const bodyParser = require('body-parser')
-app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.post('/postJson', (req, res) => {
     const fname = req.body.fname;
@@ -54,7 +71,7 @@ app.post('/validate', (req, res, next) => {
         password: joi.string().min(5).max(10).required()
     })
     joi.validate(req.body, schema, (err, result) => {
-        if(err) {
+        if (err) {
             next(err)
         } else {
             res.json({ success: true, result })

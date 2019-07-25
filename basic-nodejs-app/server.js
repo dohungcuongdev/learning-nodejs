@@ -3,24 +3,38 @@ var dt = require('./myfirstmodule'); // You can create your own modules, and eas
 var { sum, PI, printSomething } = require('./mysecondmodule');
 var mysecondmodule = require('./mysecondmodule');
 var Person = require('./person');
+const Dog = require('./dog');
 var FileSystem = require('./file-system-module');
 var eventsModule = require('./events-module');
 
  // In the JavaScript, a function can be treated like a class. The following example exposes a function which can be used like a class.
 var docuong = new Person('Do', 'Cuong');
 var fileSystem = new FileSystem();
+let bubby = new Dog('bubby');
 
 // The HTTP module can create an HTTP server that listens to server ports and gives a response back to the client.
 // Use the createServer() method to create an HTTP server:
 http.createServer(async function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
+  console.log("dt begin");
   res.write("The date and time are currently: " + dt.myDateTime());
+  console.log("docuong begin");
   res.write(docuong.firstname);
   res.write(docuong.lastname);
   res.write(docuong.fullname);
   docuong.printInfor();
   docuong.setFirstname("Do Hung");
   docuong.setLastName("Cuong Meepo");
+  console.log("Buggy begin");
+  console.log(bubby);
+  bubby.greeting();
+  console.log(bubby.getGreetingMes());
+  console.log(bubby.generalName);
+  console.log(bubby.angryMes);
+  bubby.setName('doggy');
+  console.log(bubby.name);
+  console.log(bubby.getName());
+  console.log("handleFile begin");
   res.write(await handleFile.getData());
   res.end();
 }).listen(8080);
