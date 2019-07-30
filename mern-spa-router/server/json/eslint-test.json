@@ -1,0 +1,1955 @@
+{
+    "_id": {
+        "$oid": "5d3e7de4053206aae657d9b5"
+    },
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "utf-8"
+        }
+    },
+    "elements": [
+        {
+            "type": "element",
+            "name": "checkstyle",
+            "attributes": {
+                "version": "4.3"
+            },
+            "elements": [
+                {
+                    "type": "element",
+                    "name": "file",
+                    "attributes": {
+                        "name": "/codebuild/output/src409881405/src/src/App.js"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "1",
+                                "column": "8",
+                                "severity": "error",
+                                "message": "'React' is defined but never used. (no-unused-vars)",
+                                "source": "eslint.rules.no-unused-vars"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "8",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "9",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "9",
+                                "column": "17",
+                                "severity": "warning",
+                                "message": "Missing semicolon. (semi)",
+                                "source": "eslint.rules.semi"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "10",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "11",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "12",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "12",
+                                "column": "6",
+                                "severity": "warning",
+                                "message": "Missing semicolon. (semi)",
+                                "source": "eslint.rules.semi"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "13",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "14",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "16",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "18",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "19",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "20",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "21",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "22",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "23",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "25",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "26",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "27",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 24 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "28",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "29",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "30",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "31",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "32",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 0. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "32",
+                                "column": "3",
+                                "severity": "error",
+                                "message": "Unnecessary semicolon. (no-extra-semi)",
+                                "source": "eslint.rules.no-extra-semi"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "file",
+                    "attributes": {
+                        "name": "/codebuild/output/src409881405/src/src/App.test.js"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "1",
+                                "column": "8",
+                                "severity": "error",
+                                "message": "'React' is defined but never used. (no-unused-vars)",
+                                "source": "eslint.rules.no-unused-vars"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "3",
+                                "column": "8",
+                                "severity": "error",
+                                "message": "'App' is defined but never used. (no-unused-vars)",
+                                "source": "eslint.rules.no-unused-vars"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "5",
+                                "column": "1",
+                                "severity": "error",
+                                "message": "'it' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "6",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "6",
+                                "column": "15",
+                                "severity": "error",
+                                "message": "'document' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "7",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "8",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "file",
+                    "attributes": {
+                        "name": "/codebuild/output/src409881405/src/src/aws-exports.js"
+                    }
+                },
+                {
+                    "type": "element",
+                    "name": "file",
+                    "attributes": {
+                        "name": "/codebuild/output/src409881405/src/src/eslint-test.js"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "1",
+                                "column": "7",
+                                "severity": "error",
+                                "message": "'a' is assigned a value but never used. (no-unused-vars)",
+                                "source": "eslint.rules.no-unused-vars"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "2",
+                                "column": "1",
+                                "severity": "error",
+                                "message": "'a' is constant. (no-const-assign)",
+                                "source": "eslint.rules.no-const-assign"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "4",
+                                "column": "10",
+                                "severity": "error",
+                                "message": "'addOne' is defined but never used. (no-unused-vars)",
+                                "source": "eslint.rules.no-unused-vars"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "5",
+                                "column": "9",
+                                "severity": "error",
+                                "message": "Use the isNaN function to compare with NaN. (use-isnan)",
+                                "source": "eslint.rules.use-isnan"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "6",
+                                "column": "16",
+                                "severity": "error",
+                                "message": "Unexpected space before unary operator '++'. (space-unary-ops)",
+                                "source": "eslint.rules.space-unary-ops"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "6",
+                                "column": "20",
+                                "severity": "warning",
+                                "message": "Missing semicolon. (semi)",
+                                "source": "eslint.rules.semi"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "7",
+                                "column": "12",
+                                "severity": "warning",
+                                "message": "Unnecessary 'else' after 'return'. (no-else-return)",
+                                "source": "eslint.rules.no-else-return"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "8",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "8",
+                                "column": "7",
+                                "severity": "error",
+                                "message": "Function 'addOne' expected a return value. (consistent-return)",
+                                "source": "eslint.rules.consistent-return"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "8",
+                                "column": "13",
+                                "severity": "warning",
+                                "message": "Missing semicolon. (semi)",
+                                "source": "eslint.rules.semi"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "10",
+                                "column": "2",
+                                "severity": "error",
+                                "message": "Unnecessary semicolon. (no-extra-semi)",
+                                "source": "eslint.rules.no-extra-semi"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "file",
+                    "attributes": {
+                        "name": "/codebuild/output/src409881405/src/src/index.js"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "1",
+                                "column": "8",
+                                "severity": "error",
+                                "message": "'React' is defined but never used. (no-unused-vars)",
+                                "source": "eslint.rules.no-unused-vars"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "4",
+                                "column": "8",
+                                "severity": "error",
+                                "message": "'App' is defined but never used. (no-unused-vars)",
+                                "source": "eslint.rules.no-unused-vars"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "7",
+                                "column": "26",
+                                "severity": "error",
+                                "message": "'document' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "file",
+                    "attributes": {
+                        "name": "/codebuild/output/src409881405/src/src/serviceWorker.js"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "14",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "14",
+                                "column": "3",
+                                "severity": "error",
+                                "message": "'window' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "16",
+                                "column": "5",
+                                "severity": "error",
+                                "message": "'window' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "18",
+                                "column": "5",
+                                "severity": "error",
+                                "message": "'window' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "19",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "24",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "24",
+                                "column": "7",
+                                "severity": "error",
+                                "message": "'process' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "24",
+                                "column": "67",
+                                "severity": "error",
+                                "message": "'navigator' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "26",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "26",
+                                "column": "27",
+                                "severity": "error",
+                                "message": "'URL' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "26",
+                                "column": "31",
+                                "severity": "error",
+                                "message": "'process' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "26",
+                                "column": "55",
+                                "severity": "error",
+                                "message": "'window' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "27",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "27",
+                                "column": "30",
+                                "severity": "error",
+                                "message": "'window' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "28",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "29",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "30",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "31",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "32",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "34",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "34",
+                                "column": "5",
+                                "severity": "error",
+                                "message": "'window' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "35",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "35",
+                                "column": "24",
+                                "severity": "error",
+                                "message": "'process' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "37",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "38",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "39",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "41",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "42",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "43",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "43",
+                                "column": "9",
+                                "severity": "error",
+                                "message": "'navigator' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "44",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "44",
+                                "column": "11",
+                                "severity": "error",
+                                "message": "Unexpected console statement. (no-console)",
+                                "source": "eslint.rules.no-console"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "44",
+                                "column": "11",
+                                "severity": "error",
+                                "message": "'console' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "45",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 24 spaces but found 12. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "47",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "48",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "49",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "50",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "51",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "52",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "53",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "54",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "58",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "58",
+                                "column": "3",
+                                "severity": "error",
+                                "message": "'navigator' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "59",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "60",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "61",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "62",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "63",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "64",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "65",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "66",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "67",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "68",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 24 spaces but found 12. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "68",
+                                "column": "17",
+                                "severity": "error",
+                                "message": "'navigator' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "69",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "70",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "71",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "72",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "72",
+                                "column": "15",
+                                "severity": "error",
+                                "message": "'console' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "72",
+                                "column": "15",
+                                "severity": "error",
+                                "message": "Unexpected console statement. (no-console)",
+                                "source": "eslint.rules.no-console"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "73",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 32 spaces but found 16. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "75",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "77",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "78",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "79",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 32 spaces but found 16. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "80",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "81",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 24 spaces but found 12. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "82",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "83",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "84",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "85",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "85",
+                                "column": "15",
+                                "severity": "error",
+                                "message": "Unexpected console statement. (no-console)",
+                                "source": "eslint.rules.no-console"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "85",
+                                "column": "15",
+                                "severity": "error",
+                                "message": "'console' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "87",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "88",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "89",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 32 spaces but found 16. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "90",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 28 spaces but found 14. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "91",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 24 spaces but found 12. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "92",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "93",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "94",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "95",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "96",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "97",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "97",
+                                "column": "7",
+                                "severity": "error",
+                                "message": "'console' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "97",
+                                "column": "7",
+                                "severity": "error",
+                                "message": "Unexpected console statement. (no-console)",
+                                "source": "eslint.rules.no-console"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "98",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "102",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "103",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "103",
+                                "column": "3",
+                                "severity": "error",
+                                "message": "'fetch' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "104",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "105",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "106",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "107",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "108",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "110",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "111",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "112",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "112",
+                                "column": "9",
+                                "severity": "error",
+                                "message": "'navigator' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "113",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "114",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 24 spaces but found 12. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "114",
+                                "column": "13",
+                                "severity": "error",
+                                "message": "'window' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "115",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 20 spaces but found 10. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "116",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "117",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "118",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "119",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "120",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "121",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "122",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "123",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "123",
+                                "column": "7",
+                                "severity": "error",
+                                "message": "'console' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "123",
+                                "column": "7",
+                                "severity": "error",
+                                "message": "Unexpected console statement. (no-console)",
+                                "source": "eslint.rules.no-console"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "124",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 16 spaces but found 8. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "125",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "126",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "130",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "130",
+                                "column": "26",
+                                "severity": "error",
+                                "message": "'navigator' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "131",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "131",
+                                "column": "5",
+                                "severity": "error",
+                                "message": "'navigator' is not defined. (no-undef)",
+                                "source": "eslint.rules.no-undef"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "132",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 12 spaces but found 6. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "133",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 8 spaces but found 4. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        },
+                        {
+                            "type": "element",
+                            "name": "error",
+                            "attributes": {
+                                "line": "134",
+                                "column": "1",
+                                "severity": "warning",
+                                "message": "Expected indentation of 4 spaces but found 2. (indent)",
+                                "source": "eslint.rules.indent"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -15,28 +15,33 @@ function commonHandleGetApi(response, err, resource, doNextCallbackFunction) {
     }
 }
 
-function commonHandlePostApi(response, err, resource, doNextCallbackFunction) {
+function commonHandleUpdateApi(response, err, resource, doNextCallbackFunction, successStatus) {
     if (err) {
         response.status(500).json(err);
     } else {
         if (doNextCallbackFunction) {
             doNextCallbackFunction();
         } else {
-            response.json(resource).status(201);
+            response.json(resource).status(successStatus);
         }
     }
+}
+
+function commonHandlePostApi(response, err, resource, doNextCallbackFunction) {
+    commonHandleUpdateApi(response, err, resource, doNextCallbackFunction, 201);
+}
+
+function commonHandlePutApi(response, err, resource, doNextCallbackFunction) {
+    commonHandleUpdateApi(response, err, resource, doNextCallbackFunction, 200);
 }
 
 function commonHandleDeleteApi(response, err, resource, doNextCallbackFunction) {
-    if (err) {
-        return response.status(500).json(err);
-    } else {
-        if (doNextCallbackFunction) {
-            doNextCallbackFunction();
-        } else {
-            response.json(resource);
-        }
-    }
+    commonHandleUpdateApi(response, err, resource, doNextCallbackFunction, 200);
 }
 
-module.exports = { commonHandleGetApi, commonHandlePostApi, commonHandleDeleteApi }
+function errHandler(response, err) {
+    //console.log(err);
+    response.status(500).json(err);
+}
+
+module.exports = { commonHandleGetApi, commonHandlePostApi, commonHandlePutApi, commonHandleDeleteApi, errHandler }

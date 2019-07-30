@@ -5,8 +5,8 @@ mongoose.Promise = global.Promise;
 
 var UserSchema = new Schema(
     {
-        name: { type: String, default: '' },
-        username: { type: String, default: '' },
+        name: { type: String, default: '', required: true },
+        username: { type: String, default: '', required: true },
     },
     {
         collection: 'users'
@@ -22,10 +22,10 @@ UserSchema.pre('save', function (next) { // must stand above mongoose.model(...
 
 });
 
-
 // Pre hook for `findOneAndUpdate`
 UserSchema.pre('findOneAndUpdate', function (next) { // must stand above mongoose.model(...
     // do stuff
+    this.options.runValidators = true; // allow validation for findOneAndUpdate
     console.log('before findOneAndUpdate');
     next();
 });
@@ -38,12 +38,16 @@ UserSchema.path('username').validate(function (username) {
 }, 'Username cannot be blank');
 
 
-UserSchema.path('name').validate(function (username) {
-    return username.length;
+UserSchema.path('name').validate(function (name) {
+    return name.length;
 }, 'Name cannot be blank');
 
-module.exports.getUsers = function(callbackAction) {
+module.exports.getUsers = function (callbackAction) {
     users.find(callbackAction);
+}
+
+module.exports.getUsersPromise = function () {
+    return users.find();
 }
 
 //function get user by username
@@ -52,10 +56,21 @@ module.exports.getUserByUsername = function (username, callbackAction) {
     users.findOne(query, callbackAction);
 };
 
+module.exports.getUserByUsernamePromise = function (username) {
+    var query = { username: username };
+    return users.findOne(query);
+};
+
 module.exports.addUser = function (newuser, callbackAction) {
     newuser.save(callbackAction);
 };
 
-module.exports.editUser = function (username, name, callbackAction) {
-    
+module.exports.addUserPromise = function (newuser) {
+    return newuser.save();
+};
+
+module.exports.updateNameOfUser = function (username, name, callbackAction) {
+    const filter = { username };
+    const update = { name };
+    users.findOneAndUpdate(filter, update, callbackAction);
 };
