@@ -1,5 +1,12 @@
 const eslintModel = require('../models/eslint');
+const buildModel = require('../models/build');
 const { errHandler } = require('./');
+
+exports.getAllBuilds = function(request, response) {
+    buildModel.find().then((builds) => {
+        response.status(200).json(builds);
+    }, e => errHandler(response, err));
+}
 
 exports.getData = function (request, response) {
     eslintModel.getDataPromise().then(function (eslintArray) {
